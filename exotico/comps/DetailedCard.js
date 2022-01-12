@@ -35,7 +35,6 @@ const Para = styled.p`
 const TCont = styled.div`
     margin: 100px;
     display: flex;
-    justify-content: space-around;
 `;
 
 const DetailedCard = ({
@@ -68,7 +67,12 @@ const DetailedCard = ({
                 </Para>
             </SCont>
             <TCont>
+                <Para>
                 {petInfo}
+                </Para>
+
+                {/* Button goes here */}
+
             </TCont>
         </Container>
     )
