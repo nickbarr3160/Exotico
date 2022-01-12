@@ -12,6 +12,7 @@ width: 10vw;
 height: 30vh;
 background-color: #a36abb;
 border-radius: 15px;
+box-shadow: 2px 2px 5px 1px black;
 overflow: hidden;
 `;
 
