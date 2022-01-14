@@ -1,6 +1,7 @@
-import DetailedCard from "../comps/DetailedCard";
 import React from "react";
 import styled from "styled-components";
+import NavBar from "../comps/NavBar";
+
 
 const MainCont = styled.div`
 display: flex;
@@ -10,8 +11,8 @@ align-items: center;
 
 export default function ibbytest() {
     return (
-        <MainCont> 
-            <DetailedCard />
+        <MainCont>
+            <NavBar />
         </MainCont>
     )
 }
